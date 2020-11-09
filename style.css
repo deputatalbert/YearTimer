@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+body {
+    height: 100hv;
+    background: url('./img/bgr.jpg');
+    background-size: 100% 100vh;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 30px;
+}
+
+p {
+    text-align: center;
+    font-size: 120px;
+}
+
+span {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.container_timer {
+    padding-top: 22%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.timer_day {
+    width: 150px;
+    height: 200px;
+}
+
+.timer_hours {
+    width: 150px;
+    height: 200px;
+}
+
+
+.timer_minuts {
+    width: 150px;
+    height: 200px;
+}
+
+.timer_seconds {
+    width: 150px;
+    height: 200px;
+}
